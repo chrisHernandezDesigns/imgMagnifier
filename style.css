@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+#imageContainer {
+    position: relative;
+    display: inline-block;
+}
+
+#magnifier {
+    position: absolute;
+    border: 2px solid red;
+    border-radius: 50%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+#magnifier img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
